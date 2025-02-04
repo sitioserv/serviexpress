@@ -1,0 +1,113 @@
+/* Reset de estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3b5998; /* Color azul */
+}
+
+.card-header img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-body h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.card-body p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.card-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: #888;
+    margin-top: 20px; /* Agregado: Espacio entre el botón y este div */
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #3b5998;
+}
+
+.card-body a:hover {
+    text-decoration: underline;
+}
+
+/* Quitar el subrayado de los enlaces */
+a {
+    text-decoration: none;  /* Esto elimina la línea azul debajo del texto */
+}
+
+/* Centrar el botón en el contenedor */
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espacio adicional entre el botón y el contenido anterior */
+}
+
+.whatsapp-btn::before {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/6/60/WhatsApp_Logo_1.png');
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;  /* Alineación vertical correcta con el texto */
+}
+
+/* Estilos para el botón de WhatsApp */
+.whatsapp-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #25d366;  /* Color verde de WhatsApp */
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;  /* Cambio de color cuando pasas el mouse */
+}
+
+.whatsapp-btn:active {
+    background-color: #075E54;  /* Color cuando el botón está siendo presionado */
+}
