@@ -126,3 +126,17 @@ a {
 .whatsapp-btn:active {
     background-color: #075E54;  /* Color cuando el botón está siendo presionado */
 }
+
+.large-text {
+    font-size: 14px;  /* Letra más grande */
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 12px;  /* Letra más pequeña */
+    color: #666;  /* Un color más suave para texto pequeño */
+}
+
+.medium-text {
+    font-size: 18px;  /* Letra de tamaño medio */
+}
