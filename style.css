@@ -34,6 +34,12 @@ body {
     height: 180px;
 }
 
+.card-header1 img {
+    /*border-radius: 50%;*/
+    width: 200px;
+    height: 200px;
+}
+
 .card-body {
     padding: 20px;
     text-align: center;
