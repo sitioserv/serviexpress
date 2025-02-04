@@ -29,17 +29,23 @@ body {
 }
 
 .card-header img {
-    /*border-radius: 50%;*/
     width: 280px;
     height: 180px;
 }
 
+/* Estilo para centrar el contenido de .card-header1 */
+.card-header1 {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    margin-top: 20px; /* Espacio superior si es necesario */
+    height: 100%;  /* Asegura que el contenedor ocupe el 100% de su altura */
+}
+
 .card-header1 img {
-    /*border-radius: 50%;*/
-    justify-content: center;
-    padding: 20px;
-    width: 200px;
-    height: 200px;
+    width: 200px;  /* Ajusta el tamaño del QR */
+    height: 200px; /* Ajusta el tamaño del QR */
+    padding: 0; /* Quitar padding si es innecesario */
 }
 
 .card-body {
@@ -120,4 +126,3 @@ a {
 .whatsapp-btn:active {
     background-color: #075E54;  /* Color cuando el botón está siendo presionado */
 }
-
